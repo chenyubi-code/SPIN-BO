@@ -1,0 +1,3508 @@
+{
+  "schema_version": 1,
+  "design": "five_sources_one_target",
+  "dataset_count": 10,
+  "example_count": 100,
+  "examples": [
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF5",
+        "ATF6",
+        "CEBPA",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "JDP2",
+        "NFE2L1",
+        "TEF"
+      ],
+      "derived_seed": 482698228475270446,
+      "draw_order": [
+        "CREB3L3",
+        "JDP2",
+        "CREBRF",
+        "TEF",
+        "ATF6"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "ATF6",
+        "CREB3L3",
+        "CREBRF",
+        "JDP2",
+        "TEF"
+      ],
+      "target": "ATF4",
+      "filesystem_id": "AFT4",
+      "panel_id": "ATF4",
+      "csv": "biology_agnostic/ATF4.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF4",
+        "ATF6",
+        "CEBPA",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "JDP2",
+        "NFE2L1",
+        "TEF"
+      ],
+      "derived_seed": 3120173283394689275,
+      "draw_order": [
+        "JDP2",
+        "CREBRF",
+        "CREB3",
+        "CEBPA",
+        "CREB3L3"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "CEBPA",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "JDP2"
+      ],
+      "target": "ATF5",
+      "filesystem_id": "AFT4",
+      "panel_id": "ATF4",
+      "csv": "biology_agnostic/ATF4.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF4",
+        "ATF5",
+        "CEBPA",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "JDP2",
+        "NFE2L1",
+        "TEF"
+      ],
+      "derived_seed": 13809721721538548537,
+      "draw_order": [
+        "CREBRF",
+        "CREB3L3",
+        "CREB3",
+        "ATF4",
+        "ATF5"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "ATF4",
+        "ATF5",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF"
+      ],
+      "target": "ATF6",
+      "filesystem_id": "AFT4",
+      "panel_id": "ATF4",
+      "csv": "biology_agnostic/ATF4.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF4",
+        "ATF5",
+        "ATF6",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "JDP2",
+        "NFE2L1",
+        "TEF"
+      ],
+      "derived_seed": 3698159706313016392,
+      "draw_order": [
+        "TEF",
+        "CREBRF",
+        "NFE2L1",
+        "ATF5",
+        "ATF6"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "ATF5",
+        "ATF6",
+        "CREBRF",
+        "NFE2L1",
+        "TEF"
+      ],
+      "target": "CEBPA",
+      "filesystem_id": "AFT4",
+      "panel_id": "ATF4",
+      "csv": "biology_agnostic/ATF4.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF4",
+        "ATF5",
+        "ATF6",
+        "CEBPA",
+        "CREB3L3",
+        "CREBRF",
+        "JDP2",
+        "NFE2L1",
+        "TEF"
+      ],
+      "derived_seed": 7291279481861308995,
+      "draw_order": [
+        "TEF",
+        "CEBPA",
+        "ATF6",
+        "CREBRF",
+        "CREB3L3"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "ATF6",
+        "CEBPA",
+        "CREB3L3",
+        "CREBRF",
+        "TEF"
+      ],
+      "target": "CREB3",
+      "filesystem_id": "AFT4",
+      "panel_id": "ATF4",
+      "csv": "biology_agnostic/ATF4.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF4",
+        "ATF5",
+        "ATF6",
+        "CEBPA",
+        "CREB3",
+        "CREBRF",
+        "JDP2",
+        "NFE2L1",
+        "TEF"
+      ],
+      "derived_seed": 9522990312193648717,
+      "draw_order": [
+        "CREB3",
+        "JDP2",
+        "CREBRF",
+        "ATF6",
+        "NFE2L1"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "ATF6",
+        "CREB3",
+        "CREBRF",
+        "JDP2",
+        "NFE2L1"
+      ],
+      "target": "CREB3L3",
+      "filesystem_id": "AFT4",
+      "panel_id": "ATF4",
+      "csv": "biology_agnostic/ATF4.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF4",
+        "ATF5",
+        "ATF6",
+        "CEBPA",
+        "CREB3",
+        "CREB3L3",
+        "JDP2",
+        "NFE2L1",
+        "TEF"
+      ],
+      "derived_seed": 3453720125624176592,
+      "draw_order": [
+        "ATF4",
+        "ATF6",
+        "CEBPA",
+        "CREB3",
+        "NFE2L1"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "ATF4",
+        "ATF6",
+        "CEBPA",
+        "CREB3",
+        "NFE2L1"
+      ],
+      "target": "CREBRF",
+      "filesystem_id": "AFT4",
+      "panel_id": "ATF4",
+      "csv": "biology_agnostic/ATF4.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF4",
+        "ATF5",
+        "ATF6",
+        "CEBPA",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "NFE2L1",
+        "TEF"
+      ],
+      "derived_seed": 6405903841686186123,
+      "draw_order": [
+        "TEF",
+        "ATF4",
+        "CREB3",
+        "CEBPA",
+        "CREBRF"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "ATF4",
+        "CEBPA",
+        "CREB3",
+        "CREBRF",
+        "TEF"
+      ],
+      "target": "JDP2",
+      "filesystem_id": "AFT4",
+      "panel_id": "ATF4",
+      "csv": "biology_agnostic/ATF4.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF4",
+        "ATF5",
+        "ATF6",
+        "CEBPA",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "JDP2",
+        "TEF"
+      ],
+      "derived_seed": 1357055127996537586,
+      "draw_order": [
+        "CREBRF",
+        "ATF5",
+        "TEF",
+        "CREB3L3",
+        "ATF6"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "ATF5",
+        "ATF6",
+        "CREB3L3",
+        "CREBRF",
+        "TEF"
+      ],
+      "target": "NFE2L1",
+      "filesystem_id": "AFT4",
+      "panel_id": "ATF4",
+      "csv": "biology_agnostic/ATF4.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF4",
+        "ATF5",
+        "ATF6",
+        "CEBPA",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "JDP2",
+        "NFE2L1"
+      ],
+      "derived_seed": 5220781850737458451,
+      "draw_order": [
+        "NFE2L1",
+        "CREB3",
+        "CREBRF",
+        "ATF6",
+        "JDP2"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "ATF6",
+        "CREB3",
+        "CREBRF",
+        "JDP2",
+        "NFE2L1"
+      ],
+      "target": "TEF",
+      "filesystem_id": "AFT4",
+      "panel_id": "ATF4",
+      "csv": "biology_agnostic/ATF4.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "CEBPA",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "DDIT3",
+        "JDP2",
+        "MAFK",
+        "NFE2L1",
+        "TEF"
+      ],
+      "derived_seed": 6110121216662941810,
+      "draw_order": [
+        "DDIT3",
+        "NFE2L1",
+        "CREB3L3",
+        "MAFK",
+        "CREB3"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "CREB3",
+        "CREB3L3",
+        "DDIT3",
+        "MAFK",
+        "NFE2L1"
+      ],
+      "target": "ATF5",
+      "filesystem_id": "BATF2",
+      "panel_id": "BATF2",
+      "csv": "biology_agnostic/BATF2.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF5",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "DDIT3",
+        "JDP2",
+        "MAFK",
+        "NFE2L1",
+        "TEF"
+      ],
+      "derived_seed": 14100555272689042186,
+      "draw_order": [
+        "CREBRF",
+        "CREB3L3",
+        "ATF5",
+        "MAFK",
+        "TEF"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "ATF5",
+        "CREB3L3",
+        "CREBRF",
+        "MAFK",
+        "TEF"
+      ],
+      "target": "CEBPA",
+      "filesystem_id": "BATF2",
+      "panel_id": "BATF2",
+      "csv": "biology_agnostic/BATF2.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF5",
+        "CEBPA",
+        "CREB3L3",
+        "CREBRF",
+        "DDIT3",
+        "JDP2",
+        "MAFK",
+        "NFE2L1",
+        "TEF"
+      ],
+      "derived_seed": 11165375281773028859,
+      "draw_order": [
+        "DDIT3",
+        "NFE2L1",
+        "ATF5",
+        "CREB3L3",
+        "TEF"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "ATF5",
+        "CREB3L3",
+        "DDIT3",
+        "NFE2L1",
+        "TEF"
+      ],
+      "target": "CREB3",
+      "filesystem_id": "BATF2",
+      "panel_id": "BATF2",
+      "csv": "biology_agnostic/BATF2.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF5",
+        "CEBPA",
+        "CREB3",
+        "CREBRF",
+        "DDIT3",
+        "JDP2",
+        "MAFK",
+        "NFE2L1",
+        "TEF"
+      ],
+      "derived_seed": 14961719989019335635,
+      "draw_order": [
+        "ATF5",
+        "TEF",
+        "MAFK",
+        "CREB3",
+        "CEBPA"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "ATF5",
+        "CEBPA",
+        "CREB3",
+        "MAFK",
+        "TEF"
+      ],
+      "target": "CREB3L3",
+      "filesystem_id": "BATF2",
+      "panel_id": "BATF2",
+      "csv": "biology_agnostic/BATF2.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF5",
+        "CEBPA",
+        "CREB3",
+        "CREB3L3",
+        "DDIT3",
+        "JDP2",
+        "MAFK",
+        "NFE2L1",
+        "TEF"
+      ],
+      "derived_seed": 429983341274604221,
+      "draw_order": [
+        "CREB3",
+        "NFE2L1",
+        "DDIT3",
+        "CREB3L3",
+        "TEF"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "CREB3",
+        "CREB3L3",
+        "DDIT3",
+        "NFE2L1",
+        "TEF"
+      ],
+      "target": "CREBRF",
+      "filesystem_id": "BATF2",
+      "panel_id": "BATF2",
+      "csv": "biology_agnostic/BATF2.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF5",
+        "CEBPA",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "JDP2",
+        "MAFK",
+        "NFE2L1",
+        "TEF"
+      ],
+      "derived_seed": 7887923381443082324,
+      "draw_order": [
+        "MAFK",
+        "CREBRF",
+        "CEBPA",
+        "ATF5",
+        "CREB3"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "ATF5",
+        "CEBPA",
+        "CREB3",
+        "CREBRF",
+        "MAFK"
+      ],
+      "target": "DDIT3",
+      "filesystem_id": "BATF2",
+      "panel_id": "BATF2",
+      "csv": "biology_agnostic/BATF2.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF5",
+        "CEBPA",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "DDIT3",
+        "MAFK",
+        "NFE2L1",
+        "TEF"
+      ],
+      "derived_seed": 6700236374307897008,
+      "draw_order": [
+        "CREBRF",
+        "DDIT3",
+        "CREB3",
+        "CEBPA",
+        "CREB3L3"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "CEBPA",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "DDIT3"
+      ],
+      "target": "JDP2",
+      "filesystem_id": "BATF2",
+      "panel_id": "BATF2",
+      "csv": "biology_agnostic/BATF2.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF5",
+        "CEBPA",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "DDIT3",
+        "JDP2",
+        "NFE2L1",
+        "TEF"
+      ],
+      "derived_seed": 12601842774243108880,
+      "draw_order": [
+        "CREB3",
+        "DDIT3",
+        "JDP2",
+        "ATF5",
+        "CEBPA"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "ATF5",
+        "CEBPA",
+        "CREB3",
+        "DDIT3",
+        "JDP2"
+      ],
+      "target": "MAFK",
+      "filesystem_id": "BATF2",
+      "panel_id": "BATF2",
+      "csv": "biology_agnostic/BATF2.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF5",
+        "CEBPA",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "DDIT3",
+        "JDP2",
+        "MAFK",
+        "TEF"
+      ],
+      "derived_seed": 6434235134535610234,
+      "draw_order": [
+        "TEF",
+        "MAFK",
+        "JDP2",
+        "CREBRF",
+        "CREB3"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "CREB3",
+        "CREBRF",
+        "JDP2",
+        "MAFK",
+        "TEF"
+      ],
+      "target": "NFE2L1",
+      "filesystem_id": "BATF2",
+      "panel_id": "BATF2",
+      "csv": "biology_agnostic/BATF2.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF5",
+        "CEBPA",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "DDIT3",
+        "JDP2",
+        "MAFK",
+        "NFE2L1"
+      ],
+      "derived_seed": 17008889729870497665,
+      "draw_order": [
+        "ATF5",
+        "CREBRF",
+        "JDP2",
+        "CREB3L3",
+        "DDIT3"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "ATF5",
+        "CREB3L3",
+        "CREBRF",
+        "DDIT3",
+        "JDP2"
+      ],
+      "target": "TEF",
+      "filesystem_id": "BATF2",
+      "panel_id": "BATF2",
+      "csv": "biology_agnostic/BATF2.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF5",
+        "ATF6",
+        "CEBPA",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "JDP2",
+        "NFE2L1",
+        "TEF"
+      ],
+      "derived_seed": 7951118375740335781,
+      "draw_order": [
+        "NFE2L1",
+        "CREBRF",
+        "TEF",
+        "CREB3L3",
+        "JDP2"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "CREB3L3",
+        "CREBRF",
+        "JDP2",
+        "NFE2L1",
+        "TEF"
+      ],
+      "target": "ATF4",
+      "filesystem_id": "CEBPB",
+      "panel_id": "CEBPB",
+      "csv": "biology_agnostic/CEBPB.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF4",
+        "ATF6",
+        "CEBPA",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "JDP2",
+        "NFE2L1",
+        "TEF"
+      ],
+      "derived_seed": 17243901063665314200,
+      "draw_order": [
+        "CREB3L3",
+        "CEBPA",
+        "JDP2",
+        "TEF",
+        "NFE2L1"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "CEBPA",
+        "CREB3L3",
+        "JDP2",
+        "NFE2L1",
+        "TEF"
+      ],
+      "target": "ATF5",
+      "filesystem_id": "CEBPB",
+      "panel_id": "CEBPB",
+      "csv": "biology_agnostic/CEBPB.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF4",
+        "ATF5",
+        "CEBPA",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "JDP2",
+        "NFE2L1",
+        "TEF"
+      ],
+      "derived_seed": 12459526199975501380,
+      "draw_order": [
+        "CREBRF",
+        "CREB3",
+        "JDP2",
+        "CEBPA",
+        "TEF"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "CEBPA",
+        "CREB3",
+        "CREBRF",
+        "JDP2",
+        "TEF"
+      ],
+      "target": "ATF6",
+      "filesystem_id": "CEBPB",
+      "panel_id": "CEBPB",
+      "csv": "biology_agnostic/CEBPB.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF4",
+        "ATF5",
+        "ATF6",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "JDP2",
+        "NFE2L1",
+        "TEF"
+      ],
+      "derived_seed": 9969088348902544540,
+      "draw_order": [
+        "TEF",
+        "ATF5",
+        "ATF6",
+        "ATF4",
+        "NFE2L1"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "ATF4",
+        "ATF5",
+        "ATF6",
+        "NFE2L1",
+        "TEF"
+      ],
+      "target": "CEBPA",
+      "filesystem_id": "CEBPB",
+      "panel_id": "CEBPB",
+      "csv": "biology_agnostic/CEBPB.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF4",
+        "ATF5",
+        "ATF6",
+        "CEBPA",
+        "CREB3L3",
+        "CREBRF",
+        "JDP2",
+        "NFE2L1",
+        "TEF"
+      ],
+      "derived_seed": 5745631680983751940,
+      "draw_order": [
+        "NFE2L1",
+        "ATF5",
+        "CREB3L3",
+        "CREBRF",
+        "TEF"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "ATF5",
+        "CREB3L3",
+        "CREBRF",
+        "NFE2L1",
+        "TEF"
+      ],
+      "target": "CREB3",
+      "filesystem_id": "CEBPB",
+      "panel_id": "CEBPB",
+      "csv": "biology_agnostic/CEBPB.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF4",
+        "ATF5",
+        "ATF6",
+        "CEBPA",
+        "CREB3",
+        "CREBRF",
+        "JDP2",
+        "NFE2L1",
+        "TEF"
+      ],
+      "derived_seed": 7263122276167586402,
+      "draw_order": [
+        "JDP2",
+        "CREBRF",
+        "TEF",
+        "NFE2L1",
+        "CREB3"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "CREB3",
+        "CREBRF",
+        "JDP2",
+        "NFE2L1",
+        "TEF"
+      ],
+      "target": "CREB3L3",
+      "filesystem_id": "CEBPB",
+      "panel_id": "CEBPB",
+      "csv": "biology_agnostic/CEBPB.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF4",
+        "ATF5",
+        "ATF6",
+        "CEBPA",
+        "CREB3",
+        "CREB3L3",
+        "JDP2",
+        "NFE2L1",
+        "TEF"
+      ],
+      "derived_seed": 6620862488779946210,
+      "draw_order": [
+        "TEF",
+        "CREB3",
+        "ATF5",
+        "CEBPA",
+        "JDP2"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "ATF5",
+        "CEBPA",
+        "CREB3",
+        "JDP2",
+        "TEF"
+      ],
+      "target": "CREBRF",
+      "filesystem_id": "CEBPB",
+      "panel_id": "CEBPB",
+      "csv": "biology_agnostic/CEBPB.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF4",
+        "ATF5",
+        "ATF6",
+        "CEBPA",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "NFE2L1",
+        "TEF"
+      ],
+      "derived_seed": 8604722752493977072,
+      "draw_order": [
+        "NFE2L1",
+        "CEBPA",
+        "TEF",
+        "CREBRF",
+        "ATF4"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "ATF4",
+        "CEBPA",
+        "CREBRF",
+        "NFE2L1",
+        "TEF"
+      ],
+      "target": "JDP2",
+      "filesystem_id": "CEBPB",
+      "panel_id": "CEBPB",
+      "csv": "biology_agnostic/CEBPB.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF4",
+        "ATF5",
+        "ATF6",
+        "CEBPA",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "JDP2",
+        "TEF"
+      ],
+      "derived_seed": 8676077708858778864,
+      "draw_order": [
+        "CREB3",
+        "ATF4",
+        "CREB3L3",
+        "TEF",
+        "ATF5"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "ATF4",
+        "ATF5",
+        "CREB3",
+        "CREB3L3",
+        "TEF"
+      ],
+      "target": "NFE2L1",
+      "filesystem_id": "CEBPB",
+      "panel_id": "CEBPB",
+      "csv": "biology_agnostic/CEBPB.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF4",
+        "ATF5",
+        "ATF6",
+        "CEBPA",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "JDP2",
+        "NFE2L1"
+      ],
+      "derived_seed": 1898451362302539944,
+      "draw_order": [
+        "ATF5",
+        "ATF6",
+        "CREB3L3",
+        "CEBPA",
+        "ATF4"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "ATF4",
+        "ATF5",
+        "ATF6",
+        "CEBPA",
+        "CREB3L3"
+      ],
+      "target": "TEF",
+      "filesystem_id": "CEBPB",
+      "panel_id": "CEBPB",
+      "csv": "biology_agnostic/CEBPB.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF5",
+        "ATF6",
+        "CEBPA",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "DDIT3",
+        "JDP2",
+        "MAFF"
+      ],
+      "derived_seed": 13801006398693798323,
+      "draw_order": [
+        "CREBRF",
+        "CEBPA",
+        "CREB3",
+        "MAFF",
+        "ATF6"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "ATF6",
+        "CEBPA",
+        "CREB3",
+        "CREBRF",
+        "MAFF"
+      ],
+      "target": "ATF4",
+      "filesystem_id": "CREB3",
+      "panel_id": "CREB3",
+      "csv": "biology_agnostic/CREB3.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF4",
+        "ATF6",
+        "CEBPA",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "DDIT3",
+        "JDP2",
+        "MAFF"
+      ],
+      "derived_seed": 15665159351350238784,
+      "draw_order": [
+        "MAFF",
+        "ATF4",
+        "ATF6",
+        "CREB3",
+        "CREB3L3"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "ATF4",
+        "ATF6",
+        "CREB3",
+        "CREB3L3",
+        "MAFF"
+      ],
+      "target": "ATF5",
+      "filesystem_id": "CREB3",
+      "panel_id": "CREB3",
+      "csv": "biology_agnostic/CREB3.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF4",
+        "ATF5",
+        "CEBPA",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "DDIT3",
+        "JDP2",
+        "MAFF"
+      ],
+      "derived_seed": 17101416631963333024,
+      "draw_order": [
+        "MAFF",
+        "CREB3L3",
+        "JDP2",
+        "ATF4",
+        "CREBRF"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "ATF4",
+        "CREB3L3",
+        "CREBRF",
+        "JDP2",
+        "MAFF"
+      ],
+      "target": "ATF6",
+      "filesystem_id": "CREB3",
+      "panel_id": "CREB3",
+      "csv": "biology_agnostic/CREB3.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF4",
+        "ATF5",
+        "ATF6",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "DDIT3",
+        "JDP2",
+        "MAFF"
+      ],
+      "derived_seed": 3259763553038487549,
+      "draw_order": [
+        "CREB3",
+        "ATF6",
+        "DDIT3",
+        "ATF5",
+        "CREB3L3"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "ATF5",
+        "ATF6",
+        "CREB3",
+        "CREB3L3",
+        "DDIT3"
+      ],
+      "target": "CEBPA",
+      "filesystem_id": "CREB3",
+      "panel_id": "CREB3",
+      "csv": "biology_agnostic/CREB3.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF4",
+        "ATF5",
+        "ATF6",
+        "CEBPA",
+        "CREB3L3",
+        "CREBRF",
+        "DDIT3",
+        "JDP2",
+        "MAFF"
+      ],
+      "derived_seed": 8624511895423411173,
+      "draw_order": [
+        "CREB3L3",
+        "ATF6",
+        "JDP2",
+        "MAFF",
+        "DDIT3"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "ATF6",
+        "CREB3L3",
+        "DDIT3",
+        "JDP2",
+        "MAFF"
+      ],
+      "target": "CREB3",
+      "filesystem_id": "CREB3",
+      "panel_id": "CREB3",
+      "csv": "biology_agnostic/CREB3.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF4",
+        "ATF5",
+        "ATF6",
+        "CEBPA",
+        "CREB3",
+        "CREBRF",
+        "DDIT3",
+        "JDP2",
+        "MAFF"
+      ],
+      "derived_seed": 5915610222587083776,
+      "draw_order": [
+        "ATF6",
+        "ATF5",
+        "MAFF",
+        "CREB3",
+        "CREBRF"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "ATF5",
+        "ATF6",
+        "CREB3",
+        "CREBRF",
+        "MAFF"
+      ],
+      "target": "CREB3L3",
+      "filesystem_id": "CREB3",
+      "panel_id": "CREB3",
+      "csv": "biology_agnostic/CREB3.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF4",
+        "ATF5",
+        "ATF6",
+        "CEBPA",
+        "CREB3",
+        "CREB3L3",
+        "DDIT3",
+        "JDP2",
+        "MAFF"
+      ],
+      "derived_seed": 6055963268275251977,
+      "draw_order": [
+        "MAFF",
+        "JDP2",
+        "CREB3",
+        "CEBPA",
+        "CREB3L3"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "CEBPA",
+        "CREB3",
+        "CREB3L3",
+        "JDP2",
+        "MAFF"
+      ],
+      "target": "CREBRF",
+      "filesystem_id": "CREB3",
+      "panel_id": "CREB3",
+      "csv": "biology_agnostic/CREB3.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF4",
+        "ATF5",
+        "ATF6",
+        "CEBPA",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "JDP2",
+        "MAFF"
+      ],
+      "derived_seed": 18395137186417760044,
+      "draw_order": [
+        "JDP2",
+        "ATF4",
+        "CREB3L3",
+        "ATF6",
+        "MAFF"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "ATF4",
+        "ATF6",
+        "CREB3L3",
+        "JDP2",
+        "MAFF"
+      ],
+      "target": "DDIT3",
+      "filesystem_id": "CREB3",
+      "panel_id": "CREB3",
+      "csv": "biology_agnostic/CREB3.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF4",
+        "ATF5",
+        "ATF6",
+        "CEBPA",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "DDIT3",
+        "MAFF"
+      ],
+      "derived_seed": 4765611569289145111,
+      "draw_order": [
+        "ATF6",
+        "CREB3L3",
+        "ATF4",
+        "MAFF",
+        "CREBRF"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "ATF4",
+        "ATF6",
+        "CREB3L3",
+        "CREBRF",
+        "MAFF"
+      ],
+      "target": "JDP2",
+      "filesystem_id": "CREB3",
+      "panel_id": "CREB3",
+      "csv": "biology_agnostic/CREB3.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF4",
+        "ATF5",
+        "ATF6",
+        "CEBPA",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "DDIT3",
+        "JDP2"
+      ],
+      "derived_seed": 17213725837380157697,
+      "draw_order": [
+        "CREB3L3",
+        "ATF5",
+        "CREB3",
+        "DDIT3",
+        "CEBPA"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "ATF5",
+        "CEBPA",
+        "CREB3",
+        "CREB3L3",
+        "DDIT3"
+      ],
+      "target": "MAFF",
+      "filesystem_id": "CREB3",
+      "panel_id": "CREB3",
+      "csv": "biology_agnostic/CREB3.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF6",
+        "CEBPA",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "DDIT3",
+        "JDP2",
+        "NFE2L1",
+        "TEF"
+      ],
+      "derived_seed": 12846817060903064113,
+      "draw_order": [
+        "CREB3",
+        "CREBRF",
+        "JDP2",
+        "TEF",
+        "DDIT3"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "CREB3",
+        "CREBRF",
+        "DDIT3",
+        "JDP2",
+        "TEF"
+      ],
+      "target": "ATF5",
+      "filesystem_id": "CREM",
+      "panel_id": "CREM",
+      "csv": "biology_agnostic/CREM.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF5",
+        "CEBPA",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "DDIT3",
+        "JDP2",
+        "NFE2L1",
+        "TEF"
+      ],
+      "derived_seed": 2811561621670961345,
+      "draw_order": [
+        "CREB3L3",
+        "CREBRF",
+        "CEBPA",
+        "ATF5",
+        "JDP2"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "ATF5",
+        "CEBPA",
+        "CREB3L3",
+        "CREBRF",
+        "JDP2"
+      ],
+      "target": "ATF6",
+      "filesystem_id": "CREM",
+      "panel_id": "CREM",
+      "csv": "biology_agnostic/CREM.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF5",
+        "ATF6",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "DDIT3",
+        "JDP2",
+        "NFE2L1",
+        "TEF"
+      ],
+      "derived_seed": 12494190161543687225,
+      "draw_order": [
+        "NFE2L1",
+        "CREB3L3",
+        "DDIT3",
+        "CREB3",
+        "ATF5"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "ATF5",
+        "CREB3",
+        "CREB3L3",
+        "DDIT3",
+        "NFE2L1"
+      ],
+      "target": "CEBPA",
+      "filesystem_id": "CREM",
+      "panel_id": "CREM",
+      "csv": "biology_agnostic/CREM.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF5",
+        "ATF6",
+        "CEBPA",
+        "CREB3L3",
+        "CREBRF",
+        "DDIT3",
+        "JDP2",
+        "NFE2L1",
+        "TEF"
+      ],
+      "derived_seed": 16075413654798806148,
+      "draw_order": [
+        "JDP2",
+        "CEBPA",
+        "TEF",
+        "NFE2L1",
+        "ATF6"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "ATF6",
+        "CEBPA",
+        "JDP2",
+        "NFE2L1",
+        "TEF"
+      ],
+      "target": "CREB3",
+      "filesystem_id": "CREM",
+      "panel_id": "CREM",
+      "csv": "biology_agnostic/CREM.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF5",
+        "ATF6",
+        "CEBPA",
+        "CREB3",
+        "CREBRF",
+        "DDIT3",
+        "JDP2",
+        "NFE2L1",
+        "TEF"
+      ],
+      "derived_seed": 12639348040887004933,
+      "draw_order": [
+        "NFE2L1",
+        "CREBRF",
+        "ATF5",
+        "DDIT3",
+        "TEF"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "ATF5",
+        "CREBRF",
+        "DDIT3",
+        "NFE2L1",
+        "TEF"
+      ],
+      "target": "CREB3L3",
+      "filesystem_id": "CREM",
+      "panel_id": "CREM",
+      "csv": "biology_agnostic/CREM.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF5",
+        "ATF6",
+        "CEBPA",
+        "CREB3",
+        "CREB3L3",
+        "DDIT3",
+        "JDP2",
+        "NFE2L1",
+        "TEF"
+      ],
+      "derived_seed": 11148213018993640495,
+      "draw_order": [
+        "JDP2",
+        "ATF5",
+        "CREB3L3",
+        "CEBPA",
+        "ATF6"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "ATF5",
+        "ATF6",
+        "CEBPA",
+        "CREB3L3",
+        "JDP2"
+      ],
+      "target": "CREBRF",
+      "filesystem_id": "CREM",
+      "panel_id": "CREM",
+      "csv": "biology_agnostic/CREM.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF5",
+        "ATF6",
+        "CEBPA",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "JDP2",
+        "NFE2L1",
+        "TEF"
+      ],
+      "derived_seed": 9691356016559551481,
+      "draw_order": [
+        "CREBRF",
+        "CEBPA",
+        "CREB3L3",
+        "JDP2",
+        "TEF"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "CEBPA",
+        "CREB3L3",
+        "CREBRF",
+        "JDP2",
+        "TEF"
+      ],
+      "target": "DDIT3",
+      "filesystem_id": "CREM",
+      "panel_id": "CREM",
+      "csv": "biology_agnostic/CREM.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF5",
+        "ATF6",
+        "CEBPA",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "DDIT3",
+        "NFE2L1",
+        "TEF"
+      ],
+      "derived_seed": 3651971772697398847,
+      "draw_order": [
+        "CREB3",
+        "DDIT3",
+        "CEBPA",
+        "NFE2L1",
+        "TEF"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "CEBPA",
+        "CREB3",
+        "DDIT3",
+        "NFE2L1",
+        "TEF"
+      ],
+      "target": "JDP2",
+      "filesystem_id": "CREM",
+      "panel_id": "CREM",
+      "csv": "biology_agnostic/CREM.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF5",
+        "ATF6",
+        "CEBPA",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "DDIT3",
+        "JDP2",
+        "TEF"
+      ],
+      "derived_seed": 656668464291993513,
+      "draw_order": [
+        "ATF6",
+        "CEBPA",
+        "CREB3",
+        "ATF5",
+        "CREB3L3"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "ATF5",
+        "ATF6",
+        "CEBPA",
+        "CREB3",
+        "CREB3L3"
+      ],
+      "target": "NFE2L1",
+      "filesystem_id": "CREM",
+      "panel_id": "CREM",
+      "csv": "biology_agnostic/CREM.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF5",
+        "ATF6",
+        "CEBPA",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "DDIT3",
+        "JDP2",
+        "NFE2L1"
+      ],
+      "derived_seed": 8488730895454777211,
+      "draw_order": [
+        "JDP2",
+        "DDIT3",
+        "ATF6",
+        "CEBPA",
+        "CREB3"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "ATF6",
+        "CEBPA",
+        "CREB3",
+        "DDIT3",
+        "JDP2"
+      ],
+      "target": "TEF",
+      "filesystem_id": "CREM",
+      "panel_id": "CREM",
+      "csv": "biology_agnostic/CREM.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF5",
+        "ATF6",
+        "CEBPE",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "JDP2",
+        "NFE2L1",
+        "XBP1"
+      ],
+      "derived_seed": 15235724841905335457,
+      "draw_order": [
+        "JDP2",
+        "CEBPE",
+        "XBP1",
+        "CREB3L3",
+        "CREBRF"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "CEBPE",
+        "CREB3L3",
+        "CREBRF",
+        "JDP2",
+        "XBP1"
+      ],
+      "target": "ATF4",
+      "filesystem_id": "DBP",
+      "panel_id": "DBP",
+      "csv": "biology_agnostic/DBP.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF4",
+        "ATF6",
+        "CEBPE",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "JDP2",
+        "NFE2L1",
+        "XBP1"
+      ],
+      "derived_seed": 8831472080615467263,
+      "draw_order": [
+        "ATF4",
+        "NFE2L1",
+        "CREB3L3",
+        "CREBRF",
+        "CEBPE"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "ATF4",
+        "CEBPE",
+        "CREB3L3",
+        "CREBRF",
+        "NFE2L1"
+      ],
+      "target": "ATF5",
+      "filesystem_id": "DBP",
+      "panel_id": "DBP",
+      "csv": "biology_agnostic/DBP.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF4",
+        "ATF5",
+        "CEBPE",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "JDP2",
+        "NFE2L1",
+        "XBP1"
+      ],
+      "derived_seed": 6415578234757463997,
+      "draw_order": [
+        "CREB3",
+        "NFE2L1",
+        "CREB3L3",
+        "CREBRF",
+        "XBP1"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "NFE2L1",
+        "XBP1"
+      ],
+      "target": "ATF6",
+      "filesystem_id": "DBP",
+      "panel_id": "DBP",
+      "csv": "biology_agnostic/DBP.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF4",
+        "ATF5",
+        "ATF6",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "JDP2",
+        "NFE2L1",
+        "XBP1"
+      ],
+      "derived_seed": 11257736463055748466,
+      "draw_order": [
+        "JDP2",
+        "ATF5",
+        "CREB3",
+        "XBP1",
+        "CREB3L3"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "ATF5",
+        "CREB3",
+        "CREB3L3",
+        "JDP2",
+        "XBP1"
+      ],
+      "target": "CEBPE",
+      "filesystem_id": "DBP",
+      "panel_id": "DBP",
+      "csv": "biology_agnostic/DBP.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF4",
+        "ATF5",
+        "ATF6",
+        "CEBPE",
+        "CREB3L3",
+        "CREBRF",
+        "JDP2",
+        "NFE2L1",
+        "XBP1"
+      ],
+      "derived_seed": 16132455023852271594,
+      "draw_order": [
+        "ATF6",
+        "ATF4",
+        "CEBPE",
+        "CREB3L3",
+        "XBP1"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "ATF4",
+        "ATF6",
+        "CEBPE",
+        "CREB3L3",
+        "XBP1"
+      ],
+      "target": "CREB3",
+      "filesystem_id": "DBP",
+      "panel_id": "DBP",
+      "csv": "biology_agnostic/DBP.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF4",
+        "ATF5",
+        "ATF6",
+        "CEBPE",
+        "CREB3",
+        "CREBRF",
+        "JDP2",
+        "NFE2L1",
+        "XBP1"
+      ],
+      "derived_seed": 363246639285915443,
+      "draw_order": [
+        "ATF5",
+        "JDP2",
+        "CREB3",
+        "XBP1",
+        "ATF4"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "ATF4",
+        "ATF5",
+        "CREB3",
+        "JDP2",
+        "XBP1"
+      ],
+      "target": "CREB3L3",
+      "filesystem_id": "DBP",
+      "panel_id": "DBP",
+      "csv": "biology_agnostic/DBP.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF4",
+        "ATF5",
+        "ATF6",
+        "CEBPE",
+        "CREB3",
+        "CREB3L3",
+        "JDP2",
+        "NFE2L1",
+        "XBP1"
+      ],
+      "derived_seed": 8750461017321405213,
+      "draw_order": [
+        "NFE2L1",
+        "XBP1",
+        "ATF5",
+        "ATF6",
+        "CEBPE"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "ATF5",
+        "ATF6",
+        "CEBPE",
+        "NFE2L1",
+        "XBP1"
+      ],
+      "target": "CREBRF",
+      "filesystem_id": "DBP",
+      "panel_id": "DBP",
+      "csv": "biology_agnostic/DBP.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF4",
+        "ATF5",
+        "ATF6",
+        "CEBPE",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "NFE2L1",
+        "XBP1"
+      ],
+      "derived_seed": 5043188451657112628,
+      "draw_order": [
+        "CREBRF",
+        "CREB3L3",
+        "ATF5",
+        "NFE2L1",
+        "ATF6"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "ATF5",
+        "ATF6",
+        "CREB3L3",
+        "CREBRF",
+        "NFE2L1"
+      ],
+      "target": "JDP2",
+      "filesystem_id": "DBP",
+      "panel_id": "DBP",
+      "csv": "biology_agnostic/DBP.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF4",
+        "ATF5",
+        "ATF6",
+        "CEBPE",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "JDP2",
+        "XBP1"
+      ],
+      "derived_seed": 12979477037106014469,
+      "draw_order": [
+        "CREBRF",
+        "ATF4",
+        "CREB3L3",
+        "ATF6",
+        "JDP2"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "ATF4",
+        "ATF6",
+        "CREB3L3",
+        "CREBRF",
+        "JDP2"
+      ],
+      "target": "NFE2L1",
+      "filesystem_id": "DBP",
+      "panel_id": "DBP",
+      "csv": "biology_agnostic/DBP.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF4",
+        "ATF5",
+        "ATF6",
+        "CEBPE",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "JDP2",
+        "NFE2L1"
+      ],
+      "derived_seed": 7597655231940259692,
+      "draw_order": [
+        "ATF5",
+        "CREB3L3",
+        "CREBRF",
+        "ATF4",
+        "JDP2"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "ATF4",
+        "ATF5",
+        "CREB3L3",
+        "CREBRF",
+        "JDP2"
+      ],
+      "target": "XBP1",
+      "filesystem_id": "DBP",
+      "panel_id": "DBP",
+      "csv": "biology_agnostic/DBP.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "CREB3",
+        "CREBRF",
+        "JDP2",
+        "JUNB",
+        "MAFF",
+        "MAFK",
+        "NFE2L1",
+        "TEF",
+        "XBP1"
+      ],
+      "derived_seed": 11889304302243228821,
+      "draw_order": [
+        "CREBRF",
+        "JDP2",
+        "NFE2L1",
+        "MAFF",
+        "XBP1"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "CREBRF",
+        "JDP2",
+        "MAFF",
+        "NFE2L1",
+        "XBP1"
+      ],
+      "target": "CEBPA",
+      "filesystem_id": "FOSB",
+      "panel_id": "FOSB",
+      "csv": "biology_agnostic/FOSB.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "CEBPA",
+        "CREBRF",
+        "JDP2",
+        "JUNB",
+        "MAFF",
+        "MAFK",
+        "NFE2L1",
+        "TEF",
+        "XBP1"
+      ],
+      "derived_seed": 16635840061062785314,
+      "draw_order": [
+        "NFE2L1",
+        "MAFK",
+        "CREBRF",
+        "XBP1",
+        "MAFF"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "CREBRF",
+        "MAFF",
+        "MAFK",
+        "NFE2L1",
+        "XBP1"
+      ],
+      "target": "CREB3",
+      "filesystem_id": "FOSB",
+      "panel_id": "FOSB",
+      "csv": "biology_agnostic/FOSB.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "CEBPA",
+        "CREB3",
+        "JDP2",
+        "JUNB",
+        "MAFF",
+        "MAFK",
+        "NFE2L1",
+        "TEF",
+        "XBP1"
+      ],
+      "derived_seed": 4758763370078278067,
+      "draw_order": [
+        "NFE2L1",
+        "JDP2",
+        "CREB3",
+        "MAFK",
+        "XBP1"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "CREB3",
+        "JDP2",
+        "MAFK",
+        "NFE2L1",
+        "XBP1"
+      ],
+      "target": "CREBRF",
+      "filesystem_id": "FOSB",
+      "panel_id": "FOSB",
+      "csv": "biology_agnostic/FOSB.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "CEBPA",
+        "CREB3",
+        "CREBRF",
+        "JUNB",
+        "MAFF",
+        "MAFK",
+        "NFE2L1",
+        "TEF",
+        "XBP1"
+      ],
+      "derived_seed": 5277569372354178297,
+      "draw_order": [
+        "CREB3",
+        "JUNB",
+        "CREBRF",
+        "TEF",
+        "NFE2L1"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "CREB3",
+        "CREBRF",
+        "JUNB",
+        "NFE2L1",
+        "TEF"
+      ],
+      "target": "JDP2",
+      "filesystem_id": "FOSB",
+      "panel_id": "FOSB",
+      "csv": "biology_agnostic/FOSB.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "CEBPA",
+        "CREB3",
+        "CREBRF",
+        "JDP2",
+        "MAFF",
+        "MAFK",
+        "NFE2L1",
+        "TEF",
+        "XBP1"
+      ],
+      "derived_seed": 1128944318626775477,
+      "draw_order": [
+        "CREB3",
+        "NFE2L1",
+        "CREBRF",
+        "MAFF",
+        "JDP2"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "CREB3",
+        "CREBRF",
+        "JDP2",
+        "MAFF",
+        "NFE2L1"
+      ],
+      "target": "JUNB",
+      "filesystem_id": "FOSB",
+      "panel_id": "FOSB",
+      "csv": "biology_agnostic/FOSB.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "CEBPA",
+        "CREB3",
+        "CREBRF",
+        "JDP2",
+        "JUNB",
+        "MAFK",
+        "NFE2L1",
+        "TEF",
+        "XBP1"
+      ],
+      "derived_seed": 15031372961381370691,
+      "draw_order": [
+        "CREBRF",
+        "XBP1",
+        "JDP2",
+        "CREB3",
+        "MAFK"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "CREB3",
+        "CREBRF",
+        "JDP2",
+        "MAFK",
+        "XBP1"
+      ],
+      "target": "MAFF",
+      "filesystem_id": "FOSB",
+      "panel_id": "FOSB",
+      "csv": "biology_agnostic/FOSB.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "CEBPA",
+        "CREB3",
+        "CREBRF",
+        "JDP2",
+        "JUNB",
+        "MAFF",
+        "NFE2L1",
+        "TEF",
+        "XBP1"
+      ],
+      "derived_seed": 11870481480007872378,
+      "draw_order": [
+        "CREBRF",
+        "CEBPA",
+        "CREB3",
+        "MAFF",
+        "JUNB"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "CEBPA",
+        "CREB3",
+        "CREBRF",
+        "JUNB",
+        "MAFF"
+      ],
+      "target": "MAFK",
+      "filesystem_id": "FOSB",
+      "panel_id": "FOSB",
+      "csv": "biology_agnostic/FOSB.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "CEBPA",
+        "CREB3",
+        "CREBRF",
+        "JDP2",
+        "JUNB",
+        "MAFF",
+        "MAFK",
+        "TEF",
+        "XBP1"
+      ],
+      "derived_seed": 7799336210639355673,
+      "draw_order": [
+        "CREB3",
+        "MAFF",
+        "CEBPA",
+        "JUNB",
+        "TEF"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "CEBPA",
+        "CREB3",
+        "JUNB",
+        "MAFF",
+        "TEF"
+      ],
+      "target": "NFE2L1",
+      "filesystem_id": "FOSB",
+      "panel_id": "FOSB",
+      "csv": "biology_agnostic/FOSB.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "CEBPA",
+        "CREB3",
+        "CREBRF",
+        "JDP2",
+        "JUNB",
+        "MAFF",
+        "MAFK",
+        "NFE2L1",
+        "XBP1"
+      ],
+      "derived_seed": 12017388648106602722,
+      "draw_order": [
+        "JDP2",
+        "NFE2L1",
+        "MAFF",
+        "MAFK",
+        "CREBRF"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "CREBRF",
+        "JDP2",
+        "MAFF",
+        "MAFK",
+        "NFE2L1"
+      ],
+      "target": "TEF",
+      "filesystem_id": "FOSB",
+      "panel_id": "FOSB",
+      "csv": "biology_agnostic/FOSB.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "CEBPA",
+        "CREB3",
+        "CREBRF",
+        "JDP2",
+        "JUNB",
+        "MAFF",
+        "MAFK",
+        "NFE2L1",
+        "TEF"
+      ],
+      "derived_seed": 15807378926291947491,
+      "draw_order": [
+        "JDP2",
+        "CREB3",
+        "CREBRF",
+        "CEBPA",
+        "MAFK"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "CEBPA",
+        "CREB3",
+        "CREBRF",
+        "JDP2",
+        "MAFK"
+      ],
+      "target": "XBP1",
+      "filesystem_id": "FOSB",
+      "panel_id": "FOSB",
+      "csv": "biology_agnostic/FOSB.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF4",
+        "ATF5",
+        "ATF6",
+        "BATF3",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "MAFF",
+        "TEF"
+      ],
+      "derived_seed": 15636164349511317320,
+      "draw_order": [
+        "ATF5",
+        "ATF4",
+        "BATF3",
+        "TEF",
+        "CREB3L3"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "ATF4",
+        "ATF5",
+        "BATF3",
+        "CREB3L3",
+        "TEF"
+      ],
+      "target": "ATF3",
+      "filesystem_id": "JUNB",
+      "panel_id": "JUNB",
+      "csv": "biology_agnostic/JUNB.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF3",
+        "ATF5",
+        "ATF6",
+        "BATF3",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "MAFF",
+        "TEF"
+      ],
+      "derived_seed": 7192495230666205070,
+      "draw_order": [
+        "ATF5",
+        "CREBRF",
+        "MAFF",
+        "CREB3",
+        "CREB3L3"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "ATF5",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "MAFF"
+      ],
+      "target": "ATF4",
+      "filesystem_id": "JUNB",
+      "panel_id": "JUNB",
+      "csv": "biology_agnostic/JUNB.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF3",
+        "ATF4",
+        "ATF6",
+        "BATF3",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "MAFF",
+        "TEF"
+      ],
+      "derived_seed": 4100075665278387810,
+      "draw_order": [
+        "BATF3",
+        "CREB3L3",
+        "ATF3",
+        "ATF4",
+        "MAFF"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "ATF3",
+        "ATF4",
+        "BATF3",
+        "CREB3L3",
+        "MAFF"
+      ],
+      "target": "ATF5",
+      "filesystem_id": "JUNB",
+      "panel_id": "JUNB",
+      "csv": "biology_agnostic/JUNB.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF3",
+        "ATF4",
+        "ATF5",
+        "BATF3",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "MAFF",
+        "TEF"
+      ],
+      "derived_seed": 7130633347595971970,
+      "draw_order": [
+        "TEF",
+        "MAFF",
+        "ATF5",
+        "CREB3L3",
+        "CREBRF"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "ATF5",
+        "CREB3L3",
+        "CREBRF",
+        "MAFF",
+        "TEF"
+      ],
+      "target": "ATF6",
+      "filesystem_id": "JUNB",
+      "panel_id": "JUNB",
+      "csv": "biology_agnostic/JUNB.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF3",
+        "ATF4",
+        "ATF5",
+        "ATF6",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "MAFF",
+        "TEF"
+      ],
+      "derived_seed": 12380908803010157542,
+      "draw_order": [
+        "ATF5",
+        "CREB3",
+        "ATF6",
+        "TEF",
+        "CREBRF"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "ATF5",
+        "ATF6",
+        "CREB3",
+        "CREBRF",
+        "TEF"
+      ],
+      "target": "BATF3",
+      "filesystem_id": "JUNB",
+      "panel_id": "JUNB",
+      "csv": "biology_agnostic/JUNB.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF3",
+        "ATF4",
+        "ATF5",
+        "ATF6",
+        "BATF3",
+        "CREB3L3",
+        "CREBRF",
+        "MAFF",
+        "TEF"
+      ],
+      "derived_seed": 10789065065327893103,
+      "draw_order": [
+        "ATF3",
+        "ATF5",
+        "MAFF",
+        "ATF4",
+        "CREB3L3"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "ATF3",
+        "ATF4",
+        "ATF5",
+        "CREB3L3",
+        "MAFF"
+      ],
+      "target": "CREB3",
+      "filesystem_id": "JUNB",
+      "panel_id": "JUNB",
+      "csv": "biology_agnostic/JUNB.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF3",
+        "ATF4",
+        "ATF5",
+        "ATF6",
+        "BATF3",
+        "CREB3",
+        "CREBRF",
+        "MAFF",
+        "TEF"
+      ],
+      "derived_seed": 8832833613761564426,
+      "draw_order": [
+        "ATF6",
+        "BATF3",
+        "MAFF",
+        "CREB3",
+        "ATF5"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "ATF5",
+        "ATF6",
+        "BATF3",
+        "CREB3",
+        "MAFF"
+      ],
+      "target": "CREB3L3",
+      "filesystem_id": "JUNB",
+      "panel_id": "JUNB",
+      "csv": "biology_agnostic/JUNB.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF3",
+        "ATF4",
+        "ATF5",
+        "ATF6",
+        "BATF3",
+        "CREB3",
+        "CREB3L3",
+        "MAFF",
+        "TEF"
+      ],
+      "derived_seed": 5037537131228287232,
+      "draw_order": [
+        "TEF",
+        "CREB3L3",
+        "ATF3",
+        "ATF5",
+        "BATF3"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "ATF3",
+        "ATF5",
+        "BATF3",
+        "CREB3L3",
+        "TEF"
+      ],
+      "target": "CREBRF",
+      "filesystem_id": "JUNB",
+      "panel_id": "JUNB",
+      "csv": "biology_agnostic/JUNB.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF3",
+        "ATF4",
+        "ATF5",
+        "ATF6",
+        "BATF3",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "TEF"
+      ],
+      "derived_seed": 4694745575672589065,
+      "draw_order": [
+        "CREBRF",
+        "CREB3",
+        "ATF4",
+        "ATF3",
+        "TEF"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "ATF3",
+        "ATF4",
+        "CREB3",
+        "CREBRF",
+        "TEF"
+      ],
+      "target": "MAFF",
+      "filesystem_id": "JUNB",
+      "panel_id": "JUNB",
+      "csv": "biology_agnostic/JUNB.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF3",
+        "ATF4",
+        "ATF5",
+        "ATF6",
+        "BATF3",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "MAFF"
+      ],
+      "derived_seed": 15688585524670205583,
+      "draw_order": [
+        "CREB3",
+        "ATF4",
+        "ATF6",
+        "BATF3",
+        "CREBRF"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "ATF4",
+        "ATF6",
+        "BATF3",
+        "CREB3",
+        "CREBRF"
+      ],
+      "target": "TEF",
+      "filesystem_id": "JUNB",
+      "panel_id": "JUNB",
+      "csv": "biology_agnostic/JUNB.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "CEBPA",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "JDP2",
+        "MAFF",
+        "MAFK",
+        "NFE2L1",
+        "XBP1"
+      ],
+      "derived_seed": 9017243102690132720,
+      "draw_order": [
+        "CREBRF",
+        "CEBPA",
+        "CREB3L3",
+        "CREB3",
+        "XBP1"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "CEBPA",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "XBP1"
+      ],
+      "target": "ATF5",
+      "filesystem_id": "MAFG",
+      "panel_id": "MAFG",
+      "csv": "biology_agnostic/MAFG.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF5",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "JDP2",
+        "MAFF",
+        "MAFK",
+        "NFE2L1",
+        "XBP1"
+      ],
+      "derived_seed": 718147495088306620,
+      "draw_order": [
+        "CREB3L3",
+        "JDP2",
+        "CREB3",
+        "MAFK",
+        "CREBRF"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "JDP2",
+        "MAFK"
+      ],
+      "target": "CEBPA",
+      "filesystem_id": "MAFG",
+      "panel_id": "MAFG",
+      "csv": "biology_agnostic/MAFG.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF5",
+        "CEBPA",
+        "CREB3L3",
+        "CREBRF",
+        "JDP2",
+        "MAFF",
+        "MAFK",
+        "NFE2L1",
+        "XBP1"
+      ],
+      "derived_seed": 15631498001256220296,
+      "draw_order": [
+        "MAFF",
+        "ATF5",
+        "JDP2",
+        "CREB3L3",
+        "MAFK"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "ATF5",
+        "CREB3L3",
+        "JDP2",
+        "MAFF",
+        "MAFK"
+      ],
+      "target": "CREB3",
+      "filesystem_id": "MAFG",
+      "panel_id": "MAFG",
+      "csv": "biology_agnostic/MAFG.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF5",
+        "CEBPA",
+        "CREB3",
+        "CREBRF",
+        "JDP2",
+        "MAFF",
+        "MAFK",
+        "NFE2L1",
+        "XBP1"
+      ],
+      "derived_seed": 9934698363918275515,
+      "draw_order": [
+        "CREB3",
+        "XBP1",
+        "MAFF",
+        "NFE2L1",
+        "MAFK"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "CREB3",
+        "MAFF",
+        "MAFK",
+        "NFE2L1",
+        "XBP1"
+      ],
+      "target": "CREB3L3",
+      "filesystem_id": "MAFG",
+      "panel_id": "MAFG",
+      "csv": "biology_agnostic/MAFG.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF5",
+        "CEBPA",
+        "CREB3",
+        "CREB3L3",
+        "JDP2",
+        "MAFF",
+        "MAFK",
+        "NFE2L1",
+        "XBP1"
+      ],
+      "derived_seed": 893002120646047730,
+      "draw_order": [
+        "CREB3L3",
+        "JDP2",
+        "MAFK",
+        "XBP1",
+        "NFE2L1"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "CREB3L3",
+        "JDP2",
+        "MAFK",
+        "NFE2L1",
+        "XBP1"
+      ],
+      "target": "CREBRF",
+      "filesystem_id": "MAFG",
+      "panel_id": "MAFG",
+      "csv": "biology_agnostic/MAFG.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF5",
+        "CEBPA",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "MAFF",
+        "MAFK",
+        "NFE2L1",
+        "XBP1"
+      ],
+      "derived_seed": 6415910486095803488,
+      "draw_order": [
+        "ATF5",
+        "MAFF",
+        "CREB3L3",
+        "MAFK",
+        "CREBRF"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "ATF5",
+        "CREB3L3",
+        "CREBRF",
+        "MAFF",
+        "MAFK"
+      ],
+      "target": "JDP2",
+      "filesystem_id": "MAFG",
+      "panel_id": "MAFG",
+      "csv": "biology_agnostic/MAFG.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF5",
+        "CEBPA",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "JDP2",
+        "MAFK",
+        "NFE2L1",
+        "XBP1"
+      ],
+      "derived_seed": 2831372060447392424,
+      "draw_order": [
+        "CEBPA",
+        "ATF5",
+        "NFE2L1",
+        "XBP1",
+        "MAFK"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "ATF5",
+        "CEBPA",
+        "MAFK",
+        "NFE2L1",
+        "XBP1"
+      ],
+      "target": "MAFF",
+      "filesystem_id": "MAFG",
+      "panel_id": "MAFG",
+      "csv": "biology_agnostic/MAFG.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF5",
+        "CEBPA",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "JDP2",
+        "MAFF",
+        "NFE2L1",
+        "XBP1"
+      ],
+      "derived_seed": 4811491682829654814,
+      "draw_order": [
+        "NFE2L1",
+        "CREBRF",
+        "ATF5",
+        "CREB3",
+        "XBP1"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "ATF5",
+        "CREB3",
+        "CREBRF",
+        "NFE2L1",
+        "XBP1"
+      ],
+      "target": "MAFK",
+      "filesystem_id": "MAFG",
+      "panel_id": "MAFG",
+      "csv": "biology_agnostic/MAFG.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF5",
+        "CEBPA",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "JDP2",
+        "MAFF",
+        "MAFK",
+        "XBP1"
+      ],
+      "derived_seed": 7050070482308716329,
+      "draw_order": [
+        "XBP1",
+        "ATF5",
+        "CEBPA",
+        "MAFF",
+        "MAFK"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "ATF5",
+        "CEBPA",
+        "MAFF",
+        "MAFK",
+        "XBP1"
+      ],
+      "target": "NFE2L1",
+      "filesystem_id": "MAFG",
+      "panel_id": "MAFG",
+      "csv": "biology_agnostic/MAFG.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF5",
+        "CEBPA",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "JDP2",
+        "MAFF",
+        "MAFK",
+        "NFE2L1"
+      ],
+      "derived_seed": 8849520782087275645,
+      "draw_order": [
+        "JDP2",
+        "CEBPA",
+        "CREB3",
+        "CREBRF",
+        "NFE2L1"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "CEBPA",
+        "CREB3",
+        "CREBRF",
+        "JDP2",
+        "NFE2L1"
+      ],
+      "target": "XBP1",
+      "filesystem_id": "MAFG",
+      "panel_id": "MAFG",
+      "csv": "biology_agnostic/MAFG.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF5",
+        "ATF6",
+        "CEBPA",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "JDP2",
+        "NFE2L1",
+        "TEF"
+      ],
+      "derived_seed": 5179423380768816610,
+      "draw_order": [
+        "CREB3L3",
+        "TEF",
+        "CREBRF",
+        "JDP2",
+        "CEBPA"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "CEBPA",
+        "CREB3L3",
+        "CREBRF",
+        "JDP2",
+        "TEF"
+      ],
+      "target": "ATF2",
+      "filesystem_id": "XBP1",
+      "panel_id": "XBP1",
+      "csv": "biology_agnostic/XBP1.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF2",
+        "ATF6",
+        "CEBPA",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "JDP2",
+        "NFE2L1",
+        "TEF"
+      ],
+      "derived_seed": 9828477753242759039,
+      "draw_order": [
+        "CEBPA",
+        "ATF2",
+        "ATF6",
+        "CREBRF",
+        "NFE2L1"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "ATF2",
+        "ATF6",
+        "CEBPA",
+        "CREBRF",
+        "NFE2L1"
+      ],
+      "target": "ATF5",
+      "filesystem_id": "XBP1",
+      "panel_id": "XBP1",
+      "csv": "biology_agnostic/XBP1.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF2",
+        "ATF5",
+        "CEBPA",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "JDP2",
+        "NFE2L1",
+        "TEF"
+      ],
+      "derived_seed": 14390616749532561606,
+      "draw_order": [
+        "TEF",
+        "CREBRF",
+        "CREB3L3",
+        "ATF5",
+        "CEBPA"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "ATF5",
+        "CEBPA",
+        "CREB3L3",
+        "CREBRF",
+        "TEF"
+      ],
+      "target": "ATF6",
+      "filesystem_id": "XBP1",
+      "panel_id": "XBP1",
+      "csv": "biology_agnostic/XBP1.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF2",
+        "ATF5",
+        "ATF6",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "JDP2",
+        "NFE2L1",
+        "TEF"
+      ],
+      "derived_seed": 11193841875659512285,
+      "draw_order": [
+        "CREB3",
+        "ATF6",
+        "JDP2",
+        "CREB3L3",
+        "NFE2L1"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "ATF6",
+        "CREB3",
+        "CREB3L3",
+        "JDP2",
+        "NFE2L1"
+      ],
+      "target": "CEBPA",
+      "filesystem_id": "XBP1",
+      "panel_id": "XBP1",
+      "csv": "biology_agnostic/XBP1.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF2",
+        "ATF5",
+        "ATF6",
+        "CEBPA",
+        "CREB3L3",
+        "CREBRF",
+        "JDP2",
+        "NFE2L1",
+        "TEF"
+      ],
+      "derived_seed": 15594619598090604723,
+      "draw_order": [
+        "CEBPA",
+        "ATF2",
+        "CREBRF",
+        "CREB3L3",
+        "TEF"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "ATF2",
+        "CEBPA",
+        "CREB3L3",
+        "CREBRF",
+        "TEF"
+      ],
+      "target": "CREB3",
+      "filesystem_id": "XBP1",
+      "panel_id": "XBP1",
+      "csv": "biology_agnostic/XBP1.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF2",
+        "ATF5",
+        "ATF6",
+        "CEBPA",
+        "CREB3",
+        "CREBRF",
+        "JDP2",
+        "NFE2L1",
+        "TEF"
+      ],
+      "derived_seed": 17569801587364936352,
+      "draw_order": [
+        "CEBPA",
+        "TEF",
+        "CREB3",
+        "ATF2",
+        "ATF5"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "ATF2",
+        "ATF5",
+        "CEBPA",
+        "CREB3",
+        "TEF"
+      ],
+      "target": "CREB3L3",
+      "filesystem_id": "XBP1",
+      "panel_id": "XBP1",
+      "csv": "biology_agnostic/XBP1.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF2",
+        "ATF5",
+        "ATF6",
+        "CEBPA",
+        "CREB3",
+        "CREB3L3",
+        "JDP2",
+        "NFE2L1",
+        "TEF"
+      ],
+      "derived_seed": 11364287921526949921,
+      "draw_order": [
+        "ATF2",
+        "NFE2L1",
+        "TEF",
+        "CREB3L3",
+        "JDP2"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "ATF2",
+        "CREB3L3",
+        "JDP2",
+        "NFE2L1",
+        "TEF"
+      ],
+      "target": "CREBRF",
+      "filesystem_id": "XBP1",
+      "panel_id": "XBP1",
+      "csv": "biology_agnostic/XBP1.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF2",
+        "ATF5",
+        "ATF6",
+        "CEBPA",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "NFE2L1",
+        "TEF"
+      ],
+      "derived_seed": 11419533287567409797,
+      "draw_order": [
+        "CEBPA",
+        "TEF",
+        "ATF6",
+        "CREB3L3",
+        "ATF5"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "ATF5",
+        "ATF6",
+        "CEBPA",
+        "CREB3L3",
+        "TEF"
+      ],
+      "target": "JDP2",
+      "filesystem_id": "XBP1",
+      "panel_id": "XBP1",
+      "csv": "biology_agnostic/XBP1.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF2",
+        "ATF5",
+        "ATF6",
+        "CEBPA",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "JDP2",
+        "TEF"
+      ],
+      "derived_seed": 16586759690889754910,
+      "draw_order": [
+        "CREB3L3",
+        "CEBPA",
+        "ATF2",
+        "TEF",
+        "ATF6"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "ATF2",
+        "ATF6",
+        "CEBPA",
+        "CREB3L3",
+        "TEF"
+      ],
+      "target": "NFE2L1",
+      "filesystem_id": "XBP1",
+      "panel_id": "XBP1",
+      "csv": "biology_agnostic/XBP1.csv"
+    },
+    {
+      "algorithm": "python_random_mt19937_sample_without_replacement",
+      "base_seed": 20260913,
+      "candidate_sources": [
+        "ATF2",
+        "ATF5",
+        "ATF6",
+        "CEBPA",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "JDP2",
+        "NFE2L1"
+      ],
+      "derived_seed": 6160331734425999522,
+      "draw_order": [
+        "NFE2L1",
+        "CREB3",
+        "ATF5",
+        "ATF2",
+        "JDP2"
+      ],
+      "namespace": "random-5-vs-1-source-selection-v1",
+      "selected_sources": [
+        "ATF2",
+        "ATF5",
+        "CREB3",
+        "JDP2",
+        "NFE2L1"
+      ],
+      "target": "TEF",
+      "filesystem_id": "XBP1",
+      "panel_id": "XBP1",
+      "csv": "biology_agnostic/XBP1.csv"
+    }
+  ]
+}

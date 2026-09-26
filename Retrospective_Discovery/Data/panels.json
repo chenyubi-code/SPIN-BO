@@ -1,0 +1,361 @@
+{
+  "schema_version": 1,
+  "biological": [
+    {
+      "panel_id": "BATF2__CEBP_FULL6__p6",
+      "filesystem_id": "BATF2__CEBP_FULL6__p6",
+      "background": "BATF2",
+      "csv": "biological/BATF2__CEBP_FULL6__p6.csv",
+      "partners": [
+        "CEBPA",
+        "CEBPB",
+        "CEBPD",
+        "CEBPE",
+        "CEBPG",
+        "DDIT3"
+      ],
+      "variants": 504,
+      "pairs": 3024
+    },
+    {
+      "panel_id": "BATF2__CEBP_TFCLASS_EXTENDED__p4",
+      "filesystem_id": "BATF2__CEBP_TFCLASS_EXTENDED__p4",
+      "background": "BATF2",
+      "csv": "biological/BATF2__CEBP_TFCLASS_EXTENDED__p4.csv",
+      "partners": [
+        "CEBPA",
+        "CEBPB",
+        "CEBPE",
+        "DDIT3"
+      ],
+      "variants": 585,
+      "pairs": 2340
+    },
+    {
+      "panel_id": "CEBPB__CEBP_CORE__p4",
+      "filesystem_id": "CEBPB__CEBP_CORE__p4",
+      "background": "CEBPB",
+      "csv": "biological/CEBPB__CEBP_CORE__p4.csv",
+      "partners": [
+        "CEBPA",
+        "CEBPB",
+        "CEBPD",
+        "CEBPE"
+      ],
+      "variants": 571,
+      "pairs": 2284
+    },
+    {
+      "panel_id": "CEBPB__CEBP_FULL6__p6",
+      "filesystem_id": "CEBPB__CEBP_FULL6__p6",
+      "background": "CEBPB",
+      "csv": "biological/CEBPB__CEBP_FULL6__p6.csv",
+      "partners": [
+        "CEBPA",
+        "CEBPB",
+        "CEBPD",
+        "CEBPE",
+        "CEBPG",
+        "DDIT3"
+      ],
+      "variants": 534,
+      "pairs": 3204
+    },
+    {
+      "panel_id": "CEBPB__CEBP_TFCLASS_EXTENDED__p4",
+      "filesystem_id": "CEBPB__CEBP_TFCLASS_EXTENDED__p4",
+      "background": "CEBPB",
+      "csv": "biological/CEBPB__CEBP_TFCLASS_EXTENDED__p4.csv",
+      "partners": [
+        "CEBPA",
+        "CEBPB",
+        "CEBPE",
+        "DDIT3"
+      ],
+      "variants": 614,
+      "pairs": 2456
+    },
+    {
+      "panel_id": "DDIT3__CEBP_CORE__p4",
+      "filesystem_id": "DDIT3__CEBP_CORE__p4",
+      "background": "DDIT3",
+      "csv": "biological/DDIT3__CEBP_CORE__p4.csv",
+      "partners": [
+        "CEBPA",
+        "CEBPB",
+        "CEBPD",
+        "CEBPE"
+      ],
+      "variants": 533,
+      "pairs": 2132
+    },
+    {
+      "panel_id": "DDIT3__CEBP_FULL6__p6",
+      "filesystem_id": "DDIT3__CEBP_FULL6__p6",
+      "background": "DDIT3",
+      "csv": "biological/DDIT3__CEBP_FULL6__p6.csv",
+      "partners": [
+        "CEBPA",
+        "CEBPB",
+        "CEBPD",
+        "CEBPE",
+        "CEBPG",
+        "DDIT3"
+      ],
+      "variants": 501,
+      "pairs": 3006
+    },
+    {
+      "panel_id": "DDIT3__CEBP_TFCLASS_EXTENDED__p4",
+      "filesystem_id": "DDIT3__CEBP_TFCLASS_EXTENDED__p4",
+      "background": "DDIT3",
+      "csv": "biological/DDIT3__CEBP_TFCLASS_EXTENDED__p4.csv",
+      "partners": [
+        "CEBPA",
+        "CEBPB",
+        "CEBPE",
+        "DDIT3"
+      ],
+      "variants": 569,
+      "pairs": 2276
+    },
+    {
+      "panel_id": "JUNB__AP1_JUN_FOS_ATF2_10__p10",
+      "filesystem_id": "JUNB__AP1_JUN_FOS_ATF2_10__p10",
+      "background": "JUNB",
+      "csv": "biological/JUNB__AP1_JUN_FOS_ATF2_10__p10.csv",
+      "partners": [
+        "ATF2",
+        "ATF7",
+        "CREB5",
+        "FOS",
+        "FOSB",
+        "FOSL1",
+        "FOSL2",
+        "JUN",
+        "JUNB",
+        "JUND"
+      ],
+      "variants": 545,
+      "pairs": 5450
+    },
+    {
+      "panel_id": "JUNB__FOS_RELATED6__p6",
+      "filesystem_id": "JUNB__FOS_RELATED6__p6",
+      "background": "JUNB",
+      "csv": "biological/JUNB__FOS_RELATED6__p6.csv",
+      "partners": [
+        "ATF3",
+        "FOS",
+        "FOSB",
+        "FOSL1",
+        "FOSL2",
+        "JDP2"
+      ],
+      "variants": 552,
+      "pairs": 3312
+    }
+  ],
+  "biology_agnostic": [
+    {
+      "panel_id": "ATF4",
+      "filesystem_id": "AFT4",
+      "background": "ATF4",
+      "csv": "biology_agnostic/ATF4.csv",
+      "partners": [
+        "ATF4",
+        "ATF5",
+        "ATF6",
+        "CEBPA",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "JDP2",
+        "NFE2L1",
+        "TEF"
+      ],
+      "variants": 572,
+      "pairs": 5720
+    },
+    {
+      "panel_id": "BATF2",
+      "filesystem_id": "BATF2",
+      "background": "BATF2",
+      "csv": "biology_agnostic/BATF2.csv",
+      "partners": [
+        "ATF5",
+        "CEBPA",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "DDIT3",
+        "JDP2",
+        "MAFK",
+        "NFE2L1",
+        "TEF"
+      ],
+      "variants": 575,
+      "pairs": 5750
+    },
+    {
+      "panel_id": "CEBPB",
+      "filesystem_id": "CEBPB",
+      "background": "CEBPB",
+      "csv": "biology_agnostic/CEBPB.csv",
+      "partners": [
+        "ATF4",
+        "ATF5",
+        "ATF6",
+        "CEBPA",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "JDP2",
+        "NFE2L1",
+        "TEF"
+      ],
+      "variants": 605,
+      "pairs": 6050
+    },
+    {
+      "panel_id": "CREB3",
+      "filesystem_id": "CREB3",
+      "background": "CREB3",
+      "csv": "biology_agnostic/CREB3.csv",
+      "partners": [
+        "ATF4",
+        "ATF5",
+        "ATF6",
+        "CEBPA",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "DDIT3",
+        "JDP2",
+        "MAFF"
+      ],
+      "variants": 608,
+      "pairs": 6080
+    },
+    {
+      "panel_id": "CREM",
+      "filesystem_id": "CREM",
+      "background": "CREM",
+      "csv": "biology_agnostic/CREM.csv",
+      "partners": [
+        "ATF5",
+        "ATF6",
+        "CEBPA",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "DDIT3",
+        "JDP2",
+        "NFE2L1",
+        "TEF"
+      ],
+      "variants": 590,
+      "pairs": 5900
+    },
+    {
+      "panel_id": "DBP",
+      "filesystem_id": "DBP",
+      "background": "DBP",
+      "csv": "biology_agnostic/DBP.csv",
+      "partners": [
+        "ATF4",
+        "ATF5",
+        "ATF6",
+        "CEBPE",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "JDP2",
+        "NFE2L1",
+        "XBP1"
+      ],
+      "variants": 633,
+      "pairs": 6330
+    },
+    {
+      "panel_id": "FOSB",
+      "filesystem_id": "FOSB",
+      "background": "FOSB",
+      "csv": "biology_agnostic/FOSB.csv",
+      "partners": [
+        "CEBPA",
+        "CREB3",
+        "CREBRF",
+        "JDP2",
+        "JUNB",
+        "MAFF",
+        "MAFK",
+        "NFE2L1",
+        "TEF",
+        "XBP1"
+      ],
+      "variants": 657,
+      "pairs": 6570
+    },
+    {
+      "panel_id": "JUNB",
+      "filesystem_id": "JUNB",
+      "background": "JUNB",
+      "csv": "biology_agnostic/JUNB.csv",
+      "partners": [
+        "ATF3",
+        "ATF4",
+        "ATF5",
+        "ATF6",
+        "BATF3",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "MAFF",
+        "TEF"
+      ],
+      "variants": 650,
+      "pairs": 6500
+    },
+    {
+      "panel_id": "MAFG",
+      "filesystem_id": "MAFG",
+      "background": "MAFG",
+      "csv": "biology_agnostic/MAFG.csv",
+      "partners": [
+        "ATF5",
+        "CEBPA",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "JDP2",
+        "MAFF",
+        "MAFK",
+        "NFE2L1",
+        "XBP1"
+      ],
+      "variants": 584,
+      "pairs": 5840
+    },
+    {
+      "panel_id": "XBP1",
+      "filesystem_id": "XBP1",
+      "background": "XBP1",
+      "csv": "biology_agnostic/XBP1.csv",
+      "partners": [
+        "ATF2",
+        "ATF5",
+        "ATF6",
+        "CEBPA",
+        "CREB3",
+        "CREB3L3",
+        "CREBRF",
+        "JDP2",
+        "NFE2L1",
+        "TEF"
+      ],
+      "variants": 587,
+      "pairs": 5870
+    }
+  ]
+}

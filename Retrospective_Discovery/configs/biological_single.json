@@ -1,0 +1,70 @@
+{
+  "study": {
+    "alde_ensemble_size": 5,
+    "alde_hidden": 30,
+    "alde_learning_rate": 0.001,
+    "alde_max_epochs": 300,
+    "alde_patience": 30,
+    "allow_missing_embedding_generation": false,
+    "batch_size": 20,
+    "embedding_batch_size": 8,
+    "embedding_device": "cpu",
+    "encoder_batch_size": 256,
+    "encoder_bottleneck": 32,
+    "encoder_device": "cpu",
+    "encoder_epochs": 200,
+    "encoder_gradient_clip": 5.0,
+    "encoder_hidden": 128,
+    "encoder_learning_rate": 0.001,
+    "encoder_seed": 20260826,
+    "encoder_weight_decay": 0.0001,
+    "extra": {},
+    "gp_amplitude_bounds": [
+      0.001,
+      10.0
+    ],
+    "gp_jitter_initial_factor": 1e-07,
+    "gp_jitter_max_factor": 0.001,
+    "gp_length_relative_bounds": [
+      0.1,
+      10.0
+    ],
+    "gp_noise_bounds": [
+      0.03,
+      2.0
+    ],
+    "gp_optimizer_maxiter": 500,
+    "gp_optimizer_seed": 20260826,
+    "gp_sobol_starts": 16,
+    "initial_batch": 20,
+    "initial_max_redraws": 1000,
+    "mean_rank_relative_tolerance": 1e-10,
+    "recall_ks": [
+      5,
+      20
+    ],
+    "response_direction": "maximize",
+    "rf_estimators": 100,
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "study_namespace": "similar-target-equal-mutant-single-target-v1",
+    "top_tie_rule": "descending_value_then_lexicographic_pair_id",
+    "total_budget": 200,
+    "ts_jitter_initial_factor": 1e-10,
+    "ts_jitter_max_factor": 1e-06,
+    "ts_negative_eigen_relative_tolerance": 1e-08
+  },
+  "historical_encoder_devices": {
+    "cpu": 270
+  }
+}

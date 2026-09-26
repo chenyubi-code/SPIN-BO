@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "model_id": "facebook/esm2_t33_650M_UR50D",
+  "model_url": "https://huggingface.co/facebook/esm2_t33_650M_UR50D",
+  "model_layers": 33,
+  "hidden_size": 1280,
+  "pooling": "Final last_hidden_state; exclude all special and padding tokens using tokenizer special_tokens_mask and attention_mask; convert hidden states to float32 before residue mean pooling.",
+  "stored_dtype": "float32",
+  "sequence_length": 62,
+  "generation_sets": [
+    {
+      "id": "biological",
+      "cohorts": [
+        "bio_multi",
+        "bio_single"
+      ],
+      "sequence_index": "embedding_metadata/biological_sequences.csv",
+      "sequences_in_repository": 2352,
+      "loader": "AutoModelForMaskedLM then .esm backbone",
+      "device": "mps",
+      "inference_dtype": "float16",
+      "batch_size": 8,
+      "packages": {
+        "torch": "2.13.0",
+        "transformers": "5.15.1"
+      }
+    },
+    {
+      "id": "biology_agnostic",
+      "cohorts": [
+        "random_9",
+        "random_5"
+      ],
+      "sequence_index": "embedding_metadata/biology_agnostic_sequences.csv",
+      "sequences_in_repository": 5508,
+      "loader": "AutoModel",
+      "device": "mps",
+      "inference_dtype": "float16",
+      "batch_size": 8,
+      "packages": {
+        "torch": "2.13.0",
+        "transformers": "5.15.1"
+      }
+    },
+    {
+      "id": "biology_agnostic_atf4",
+      "cohorts": [
+        "random_9",
+        "random_5"
+      ],
+      "sequence_index": "embedding_metadata/biology_agnostic_atf4_sequences.csv",
+      "sequences_in_repository": 572,
+      "loader": "AutoModel",
+      "device": "mps",
+      "inference_dtype": "float16",
+      "batch_size": 8,
+      "packages": {
+        "numpy": "2.3.5",
+        "torch": "2.12.0",
+        "transformers": "5.15.1"
+      }
+    }
+  ],
+  "unique_sequences_by_cohort_group": {
+    "biological": 2352,
+    "biology_agnostic": 6080
+  },
+  "instructions": "Sequence manifests retain only sequences used by included panels. Preserve generation-set separation, historical batch number, within-batch position and batch size when generating features. Repeated sequences from the same panel fill removed unrelated slots; only retained rows enter the benchmark.",
+  "checkpoint_files": [
+    "config.json",
+    "model.safetensors",
+    "special_tokens_map.json",
+    "tokenizer_config.json",
+    "vocab.txt"
+  ]
+}
