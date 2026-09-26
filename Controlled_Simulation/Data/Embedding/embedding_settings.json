@@ -1,0 +1,52 @@
+{
+  "candidate_positions_1based": [
+    4,
+    35,
+    38,
+    68,
+    71,
+    97,
+    99
+  ],
+  "candidate_sequence_length": 127,
+  "counts": {
+    "candidate": 7715,
+    "partner": 9
+  },
+  "device": "mps",
+  "embedding_dtype": "float32",
+  "excluded_tokens": [
+    "<cls>",
+    "<eos>",
+    "<pad>"
+  ],
+  "hidden_size": 1280,
+  "inference_dtype": "float16",
+  "layer": 33,
+  "model_id": "facebook/esm2_t33_650M_UR50D",
+  "numpy_version": "2.5.2",
+  "partner_lengths": {
+    "MMP1": 170,
+    "MMP10": 165,
+    "MMP13": 165,
+    "MMP14": 176,
+    "MMP2": 340,
+    "MMP3": 173,
+    "MMP7": 173,
+    "MMP8": 162,
+    "MMP9": 337
+  },
+  "pooling": {
+    "candidate": "mean of seven selected residue vectors in full sequence context",
+    "partner": "mean over every valid residue vector"
+  },
+  "pooling_accumulation_dtype": "float32",
+  "representation": "last_hidden_state",
+  "schema_version": 1,
+  "torch_version": "2.13.0",
+  "transformers_version": "5.15.1",
+  "truncation": false,
+  "batch_size": 8,
+  "max_tokens": 2048,
+  "loader": "AutoModel"
+}

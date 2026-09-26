@@ -1,0 +1,102 @@
+{
+  "schema_version": 2,
+  "simulation_id": "ntimp2-20260917-shared-spectral-v2",
+  "master_seed": 20260917,
+  "landscape_seeds": [
+    17001,
+    17002,
+    17003,
+    17004,
+    17005
+  ],
+  "campaign_seeds": [
+    17101,
+    17102
+  ],
+  "n0": 24,
+  "batch_size": 16,
+  "budget": 408,
+  "intermediate_budgets": [
+    200
+  ],
+  "recall_ks": [
+    20
+  ],
+  "generator_family": "shared_lowdim_spectral_v2",
+  "generator_pca_dim": 64,
+  "generator_pca_floor": 1e-06,
+  "generator_teacher_pcs": [
+    3,
+    7,
+    11
+  ],
+  "generator_features": 32,
+  "generator_frequency": 1.5,
+  "generator_qr_absolute_tolerance": 1e-09,
+  "source_identity_base_order": [
+    "MMP13",
+    "MMP2",
+    "MMP8",
+    "MMP14",
+    "MMP1",
+    "MMP9",
+    "MMP3",
+    "MMP7"
+  ],
+  "source_identity_offsets": [
+    0,
+    1,
+    3,
+    5,
+    7
+  ],
+  "sampler": "exact",
+  "embedding_dir": "Data/Embedding/results",
+  "sequence_csv": "Data/Sequence/sequences.csv",
+  "model": {
+    "encoder_hidden": 128,
+    "encoder_bottleneck": 32,
+    "encoder_epochs": 100,
+    "encoder_batch_size": 256,
+    "encoder_learning_rate": 0.001,
+    "encoder_weight_decay": 0.0001,
+    "encoder_gradient_clip": 5,
+    "encoder_device": "cpu",
+    "encoder_prediction_batch_size": 1024,
+    "encoder_preprocessing": "center_coordinate_fixed_public_sources_v1",
+    "encoder_train_candidates": 4096,
+    "encoder_split_seed": 17201,
+    "encoder_std_floor_fraction": 0.1,
+    "encoder_public_source_count": 8,
+    "gp_amplitude_bounds": [
+      0.001,
+      10
+    ],
+    "gp_length_relative_bounds": [
+      0.1,
+      10
+    ],
+    "gp_fit_noise": false,
+    "gp_nugget_std": 0,
+    "gp_noise_bounds": [
+      0.001,
+      2
+    ],
+    "gp_sobol_starts": 16,
+    "gp_optimizer_maxiter": 500,
+    "gp_jitter_initial_factor": 1e-07,
+    "gp_jitter_max_factor": 0.001,
+    "mean_rank_relative_tolerance": 1e-10,
+    "distance_pair_count": 100000,
+    "distance_seed": 314159,
+    "sampler": "exact",
+    "prediction_batch_size": 1024,
+    "alde_ensemble_size": 5,
+    "alde_hidden": 30,
+    "alde_learning_rate": 0.001,
+    "alde_max_epochs": 300,
+    "alde_patience": 30,
+    "rf_estimators": 100,
+    "rf_n_jobs": 1
+  }
+}

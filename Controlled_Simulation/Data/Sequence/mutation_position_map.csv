@@ -1,0 +1,8 @@
+literature_position_1based,construct_position_1based,python_residue_index_0based,esm_token_index_with_bos_0based,parent_uniprot_position_1based,wt_residue,parent_uniprot
+4,4,3,4,30,S,P16035
+35,35,34,35,61,I,P16035
+38,38,37,38,64,N,P16035
+68,68,67,68,94,S,P16035
+71,71,70,71,97,V,P16035
+97,97,96,97,123,H,P16035
+99,99,98,99,125,T,P16035
